@@ -23,7 +23,7 @@ let kDebugLog = true
 // Set it to "false" to use the JSON file at the stationDataURL
 
 let useLocalStations = true
-let stationDataURL   = "http://yoururl.com/json/stations.json"
+let stationDataURL   = "http://vfmradio.ru/json/stations.json"
 
 //**************************************
 // SEARCH BAR
@@ -43,6 +43,6 @@ let useLastFM = true
 // IF YOU USE LASTFM, PLEASE USE YOUR OWN KEY
 // Visit: http://www.last.fm/api
 
-let apiKey    = "9a267c245324cfa4f887366d497d3dd3"
-let apiSecret = "f1191864d7ae71e580b89238129768b8"
+let apiKey    = "8e2a8811033e6a5880786382f2fca772"
+let apiSecret = "fce4f4b0f6bae465c16723bb79f7ea30"
 
