@@ -522,13 +522,13 @@ class NowPlayingViewController: UIViewController {
                 stringParts = metaData.components(separatedBy: "-")
             }
             
-            // Set artist & songvariables
+                     // Set artist & songvariables
             let currentSongName = track.title
-            track.artist = stringParts[0]
-            track.title = stringParts[0]
+            track.artist = stringParts[0].decodeAll()
+            track.title = stringParts[0].decodeAll()
             
             if stringParts.count > 1 {
-                track.title = stringParts[1]
+                track.title = stringParts[1].decodeAll()
             }
             
             if track.artist == "" && track.title == "" {
